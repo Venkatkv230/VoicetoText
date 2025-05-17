@@ -1,6 +1,4 @@
-Absolutely! Here’s a simpler, natural, and shorter **README.md** for your project:
 
-````markdown
 # VoicetotextApplication
 
 A Spring Boot app that converts live microphone audio into text using AssemblyAI’s realtime transcription API.
