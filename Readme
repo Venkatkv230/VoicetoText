@@ -1,11 +1,11 @@
 
-# VoicetotextApplication
+**VoicetotextApplication**
 
 A Spring Boot app that converts live microphone audio into text using AssemblyAI’s realtime transcription API.
 
 ---
 
-## What it does
+What it does
 
 - Listens to your microphone
 - Sends audio to AssemblyAI for transcription
@@ -13,38 +13,38 @@ A Spring Boot app that converts live microphone audio into text using AssemblyAI
 
 ---
 
-## How to run
+How to run
 
 1. Get an AssemblyAI API key from https://www.assemblyai.com
 2. Clone this repo:
-   ```bash
+   bash
    git clone https://github.com/yourusername/voicetotext.git
    cd voicetotext
-````
+`
 
 3. Add your API key to `src/main/resources/application.properties` like this:
 
-   ```properties
+   properties
    assemblyai.api.key=YOUR_API_KEY_HERE
-   ```
+   
 4. Build and start the app:
 
-   ```bash
+   bash
    mvn clean spring-boot:run
-   ```
+   
 5. Speak into your microphone, watch live transcripts in the console.
 6. Press **Enter** to stop.
 
 ---
 
-## Notes
+Notes
 
 * Make sure your mic is working and accessible.
 
 
 ---
 
-## License
+License
 
 MIT © 2025 Venkat
 
